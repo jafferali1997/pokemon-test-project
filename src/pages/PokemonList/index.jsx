@@ -43,7 +43,7 @@ export default function Index() {
     <>
       {POKEMON_LIST.isError && <ErrorMessage message={POKEMON_LIST.isError} />}
       {POKEMON_LIST.isLoading && <LoaderCenter />}
-      {POKEMON_LIST.isSuccess && (
+      {POKEMON_LIST.isSuccess && !POKEMON_LIST.isLoading && (
         <>
           <PokemonListJsx
             pokemonList={POKEMON_LIST.pokemonList}
