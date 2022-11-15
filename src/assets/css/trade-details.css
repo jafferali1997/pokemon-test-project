@@ -1,0 +1,12 @@
+.trade-details #formBasicCheckbox {
+  background-color: #59ba63 !important;
+  padding: 100% !important;
+}
+.trade-details #check {
+  border-radius: 50%;
+  padding: 9px !important;
+  background-color: #59ba63 !important;
+}
+.trade-details .pin {
+  background-color: #59ba63 !important;
+}
