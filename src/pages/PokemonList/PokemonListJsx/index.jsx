@@ -8,7 +8,7 @@ export default function PokemonListJsx({ pokemonList, moveToPokemonDetail }) {
           onClick={() => moveToPokemonDetail(pokemon)}
           onKeyDown={() => moveToPokemonDetail(pokemon)}
           role="presentation"
-          ata-testid="pokemon-list-id"
+          className="link-view"
         >
           {pokemon.name}
         </li>

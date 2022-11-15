@@ -76,6 +76,11 @@ hr {
   color: var(--grey-color);
 }
 
+.link-view {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* .bg-green {
   background-color: var(--green-color) !important;
 }

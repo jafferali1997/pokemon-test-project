@@ -36,17 +36,11 @@ export default function Index() {
             <table className="table">
               <tbody>
                 <tr>
-                  <th
-                    style={{ fontWeight: "inherit" }}
-                    scope="row"
-                    onClick={() => {
-                      moveToPokemonDetail(pokemon.id);
-                    }}
-                    onKeyDown={() => moveToPokemonDetail(pokemon.id)}
-                  >
+                  <th style={{ fontWeight: "inherit" }} scope="row">
                     {pokemon.id}
                   </th>
                   <th
+                    className="link-view"
                     style={{ fontWeight: "inherit" }}
                     onClick={() => {
                       moveToPokemonDetail(pokemon.id);
